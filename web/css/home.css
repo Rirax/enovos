@@ -1,0 +1,79 @@
+.image {
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .image {
+        height: 148px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .image {
+        height: 144px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .image {
+        height: 182px;
+    }
+}
+
+.empty {
+    height: 50px;
+    width:100%;
+    clear:both;
+}
+
+#button-1,
+#button-2,
+#button-3 {
+    background-color: #ff7900;
+    border: none;
+}
+
+#button-1:hover,
+#button-2:hover,
+#button-3:hover {
+    background-color: #EC600F;
+    border: none;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.icons article {
+    width: 41%;
+    margin: 0 auto;
+}
+
+.icons img {
+    width: 50%;
+}
+
+.socials .logo {
+    text-align: center;
+}
+
+.socials a {
+    font-size: 80px;
+    color: #ff7900;
+    text-decoration: none;
+}
+
+/*.modal-body .form-horizontal .col-sm-2,*/
+/*.modal-body .form-horizontal .col-sm-10 {*/
+    /*width: 100%*/
+/*}*/
+
+/*.modal-body .form-horizontal .control-label {*/
+    /*text-align: left;*/
+/*}*/
+/*.modal-body .form-horizontal .col-sm-offset-2 {*/
+    /*margin-left: 15px;*/
+/*}*/

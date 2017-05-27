@@ -1,0 +1,25 @@
+.circle {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 10%;
+}
+
+.circles {
+  margin-top: 50px;
+}
+
+#circle-wind,
+#circle-sun,
+#circle-temperature,
+#circle-sound {
+  width: 100%;
+  height: 100%;
+}
+
+#circle-wind > svg,
+#circle-sun > svg,
+#circle-temperature > svg ,
+#circle-sound > svg {
+  width: 100%;
+  display: block;
+}
